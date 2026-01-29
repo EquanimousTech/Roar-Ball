@@ -38,8 +38,6 @@ function LoadingScreen({ onLoadingComplete, minimumLoadTime = 3000 }) {
             const imagesToLoad = [
                 "/inputBg.jpg",
                 "/bgNew2.png",
-                "/subway-logo.png",
-                "/goat-logo.png",
             ];
 
             const imagePromises = imagesToLoad.map((src) => {
